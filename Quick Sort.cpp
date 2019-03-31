@@ -18,7 +18,7 @@ void quickSort(int *data, int start, int end) {
 		while (data[i] <= data[key]) { //키 값보다 큰 값을 만날 때까지
 			i++;
 		}
-		while(data[j] >= data[key] && j> start) { //키값보다 작은 값을 만날 때까지
+		while(data[j] >= data[key] && j> start) { //키 값보다 작은 값을 만날 때까지
 			j--;
 		}
 		if (i > j) { //현재 엇살린 상태면 키 값과 교체
